@@ -1,18 +1,16 @@
 #include <stdio.h>
-int main ()
+int main()
 {
 	/* Declarattion of variables */
-	int add1;
-	int add2;
+	int sum1, sum2;
 
 	/* Initialization of variables */
-	add1 = 10;
-	add2 = 20;
+	sum1 = 20, sum2 = 30;
 
 	/* addtition of the two variables */
-	int summation = add1 + add2;
+	int summation = sum1 + sum2;
 
-	printf("%d\n",  summation);
+	printf("%d\n", summation);
 
 	return (0);
 }
